@@ -13,7 +13,9 @@ body{
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
 }
-
+a{
+    text-decoration: none;
+}
 .transation{
   animation: glitch 1s linear infinite;
    font-size: 60px;
@@ -37,6 +39,7 @@ body{
   position: absolute;
   left: 0;
 }
+
 
 .transation:before{
   animation: glitchTop 1s linear infinite;
