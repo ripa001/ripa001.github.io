@@ -15,10 +15,10 @@ body{
 }
 a{
     text-decoration: none;
-  text-color:#e9e9e9;
+  color:#e9e9e9;
 }
-a:hover{
-  text-color:#fcfcfc;
+a:hover,a:click{
+  color:#fcfcfc;
   
 }
 .transation{
