@@ -9,14 +9,14 @@ body{
   margin: 0;
   background: #131313;
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
 }
 
 .transation{
   animation: glitch 1s linear infinite;
-   font-size: 96px;
+   font-size: 60px;
 }
 
 @keyframes glitch{
