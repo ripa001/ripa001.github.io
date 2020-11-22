@@ -17,8 +17,11 @@ a{
     text-decoration: none;
   color:#e9e9e9;
 }
-a:hover,a:click{
-  color:#fcfcfc;
+a:hover,a:active {
+     color:#fcfcfc;
+    width: 70px;
+    
+}
   
 }
 .transation{
