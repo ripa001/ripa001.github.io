@@ -13,11 +13,11 @@ body{
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
 }
-a{
+.navbar{
     text-decoration: none;
   color:#e9e9e9;
 }
-a:hover,a:active {
+.navbar:hover,.navbar:active {
      color:#fcfcfc;
  
     
