@@ -58,8 +58,8 @@ body{
 
 .transation:after{
   animation: glitchBotom 1.5s linear infinite;
-  clip-path: polygon(0 88%, 100% 88%, 100% 100%, 0 100%);
-  -webkit-clip-path: polygon(0 88%, 100% 88%, 100% 100%, 0 100%);
+  clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 70%, 100% 70%, 100% 100%, 0 100%);
 }
 
 @keyframes glitchBotom{
