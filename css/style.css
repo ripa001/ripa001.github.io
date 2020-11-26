@@ -1,8 +1,37 @@
 
-
+*{
+  margin:0;
+  list-style:none;
+  padding:0;
+  text-decoration: none;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
 body{ 
+  background:#1f1f1f;
+}
+.wrapper .top-navbar{
+  width: calc(100% - 20px);
+  height:60px;
+  display:flex;
+  position:fixed;
+  top:10px;
   
 }
+.wrapper .top-navbar .hamburger{
+  width: 70%;
+  height:100%;
+  background:#2a2a2a;
+  padding: 15px 17px;
+  border-top-left-radius: 20px;
+  cursor: pointer;
+}
+.wrapper .top-navbar .hamburger div{
+  width:35px;
+  height:4px;
+  background:#f7f7f7;
+}
+
 
 
 @media screen and (max-height: 450px) {
