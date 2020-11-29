@@ -131,7 +131,8 @@ body{
 
 
 
-//animated typing
+/* Animated text */
+
 #home .wrapper-animated{
   justify-content:left;
   width:60%;
