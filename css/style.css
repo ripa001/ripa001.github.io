@@ -56,29 +56,29 @@ body{
   color: white;
 }
 .wrapper .sidebar ul li a:hover:before{
-  display: block;
+  display: block!important;
   
 }
 .wrapper.collapse .sidebar{
-  width: 300px;
+  width: 300px!important;
   
 }
 .wrapper.collapse .sidebar ul li a {
-  text-align: center;
+  text-align: center!important;
 
 }
 .wrapper.collapse .sidebar ul li a span.icon {
-  margin: 0;
+  margin: 0!important;
   
 }
 
 
 .wrapper.collapse .sidebar ul li a span.title{
-  display: inline-block;
+  display: inline-block!important;
 }
 .wrapper.collapse .container{
-  width: calc(100% - 300px);
-  margin-right: 300px;
+  width: calc(100% - 300px)!important;
+  margin-right: 300px!important;
 }
 
 .wrapper .container{
