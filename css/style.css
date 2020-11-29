@@ -460,36 +460,7 @@ body{
     margin-top: 24px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(11):before {
-  content: "4896035721";
-  margin-top: -48px;
-  -webkit-animation-name: letter11;
-          animation-name: letter11;
-  -webkit-animation-duration: 1.8933333333s;
-          animation-duration: 1.8933333333s;
-  -webkit-animation-delay: 0.29s;
-          animation-delay: 0.29s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
 
-@-webkit-keyframes letter11 {
-  from {
-    margin-top: -48px;
-  }
-  to {
-    margin-top: 24px;
-  }
-}
-
-@keyframes letter11 {
-  from {
-    margin-top: -48px;
-  }
-  to {
-    margin-top: 24px;
-  }
-}
 
 
 
