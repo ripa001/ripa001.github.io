@@ -103,7 +103,7 @@ body{
   justify-content: center;
   align-items:center;
 }
-.wrapper .container #home .center{
+.wrapper .container #home {
   max-width: 50%;
   
 }
@@ -123,7 +123,7 @@ body{
 
 
 //animated typing
-#home .center .wrapper-animated {
+#home  .wrapper-animated {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -135,7 +135,7 @@ body{
 
 
 
-#home .center .wrapper-animated .letters .letter {
+#home  .wrapper-animated .letters .letter {
   display: inline-block;
 
   vertical-align: middle;
@@ -148,7 +148,7 @@ body{
   line-height: 40px;
   color: #eee;
 }
-#home .center .wrapper-animated .letters .letter:before {
+#home  .wrapper-animated .letters .letter:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -157,7 +157,7 @@ body{
   background-color: #1d1f20;
 }
 
-#home .center .wrapper-animated .letters .letter:nth-child(1):before {
+#home  .wrapper-animated .letters .letter:nth-child(1):before {
   content: "4056297813";
   margin-top: -192px;
   -webkit-animation-name: letter1;
@@ -187,7 +187,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(2):before {
+#home  .wrapper-animated .letters .letter:nth-child(2):before {
   content: "1607893425";
   margin-top: -144px;
   -webkit-animation-name: letter2;
@@ -217,7 +217,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(3):before {
+#home  .wrapper-animated .letters .letter:nth-child(3):before {
   content: "9572180346";
   margin-top: -48px;
   -webkit-animation-name: letter3;
@@ -247,7 +247,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(4):before {
+#home  .wrapper-animated .letters .letter:nth-child(4):before {
   content: "7891236045";
   margin-top: -144px;
   -webkit-animation-name: letter4;
@@ -277,7 +277,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(5):before {
+#home  .wrapper-animated .letters .letter:nth-child(5):before {
   content: "5680294731";
   margin-top: -144px;
   -webkit-animation-name: letter5;
@@ -307,7 +307,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(6):before {
+#home  .wrapper-animated .letters .letter:nth-child(6):before {
   content: "1924837065";
   margin-top: -120px;
   -webkit-animation-name: letter6;
@@ -337,7 +337,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(7):before {
+#home  .wrapper-animated .letters .letter:nth-child(7):before {
   content: "2897530461";
   margin-top: -24px;
   -webkit-animation-name: letter7;
@@ -367,7 +367,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(8):before {
+#home  .wrapper-animated .letters .letter:nth-child(8):before {
   content: "0975243861";
   margin-top: -72px;
   -webkit-animation-name: letter8;
@@ -397,7 +397,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(9):before {
+#home  .wrapper-animated .letters .letter:nth-child(9):before {
   content: "0137495826";
   margin-top: -216px;
   -webkit-animation-name: letter9;
@@ -427,7 +427,7 @@ body{
     margin-top: 40px;
   }
 }
-#home .center .wrapper-animated .letters .letter:nth-child(10):before {
+#home  .wrapper-animated .letters .letter:nth-child(10):before {
   content: "7432160859";
   margin-top: -48px;
   -webkit-animation-name: letter10;
