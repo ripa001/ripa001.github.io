@@ -88,6 +88,7 @@ body{
   height: calc(100%);
   display:flex;
   justify-content: center;
+  align-item:center;
   margin-top: 0;
   margin-right: 120px;
   padding: 15px;
