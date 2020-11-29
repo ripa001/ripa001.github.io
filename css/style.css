@@ -134,7 +134,7 @@ body{
 /* Animated text */
 
 #home .wrapper-animated{
-  justify-content:left;
+  justify-content:right;
   width:60%;
   font-size: 0;
   -webkit-transform: translate(-50%);
