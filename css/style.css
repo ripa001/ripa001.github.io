@@ -104,10 +104,13 @@ body{
   align-items:center;
 }
 #home .img-container{
-  width: 10rem;
-  height: 10rem;
+  width: 15rem;
+  height: 15rem;
   border-radius : 100%;
-  background-image:url("../images/bg-coding.jpg")
+  left:20%;
+  background-image:url("../images/bg-coding.jpg");
+  background-size:cover;
+  background-position: center;
 }
 .container .item{
   
