@@ -107,7 +107,7 @@ body{
   width: 10rem;
   height: 10rem;
   border-radius : 100%;
-  background-image:("../images/bg-coding.jpg")
+  background-image:url("../images/bg-coding.jpg")
 }
 .container .item{
   
