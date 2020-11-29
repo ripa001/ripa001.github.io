@@ -161,7 +161,8 @@ body{
   left: 0;
   width: 100%;
   word-break: break-all;
-  background-color: #00000000;
+  background-color: 000
+    rgba(0,0,0,0.40);
 }
 
 #home .wrapper-animated .letters .letter:nth-child(1):before {
