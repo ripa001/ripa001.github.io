@@ -132,7 +132,7 @@ body{
 
 
 //animated typing
-#home  .wrapper-animated {
+#home .wrapper-animated{
   justify-content:left;
   width:60%;
   font-size: 0;
@@ -142,7 +142,7 @@ body{
 
 
 
-#home  .wrapper-animated .letters .letter {
+#home .wrapper-animated .letters .letter {
   display: inline-block;
 
   vertical-align: middle;
@@ -155,7 +155,7 @@ body{
   line-height: 40px;
   color: #eee;
 }
-#home  .wrapper-animated .letters .letter:before {
+#home .wrapper-animated .letters .letter:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -164,7 +164,7 @@ body{
   background-color: #1d1f20;
 }
 
-#home  .wrapper-animated .letters .letter:nth-child(1):before {
+#home .wrapper-animated .letters .letter:nth-child(1):before {
   content: "4056297813";
   margin-top: -192px;
   -webkit-animation-name: letter1;
@@ -194,7 +194,7 @@ body{
     margin-top: 40px;
   }
 }
-#home  .wrapper-animated .letters .letter:nth-child(2):before {
+#home .wrapper-animated .letters .letter:nth-child(2):before {
   content: "1607893425";
   margin-top: -144px;
   -webkit-animation-name: letter2;
