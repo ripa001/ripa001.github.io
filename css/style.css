@@ -89,7 +89,7 @@ body{
   background-image: url("../image/25334.jpg");
   background-repeat: no-repeat;
   background-position:left top;
-  background-size: auto;
+  background-size: cover;
   margin-top: 0;
   margin-right: 120px;
   padding: 15px;
