@@ -100,10 +100,14 @@ body{
   background-position:left top;
   background-size: cover;
   display:flex;
-  justify-content: center;
+ 
   align-items:center;
+} 
+#home .left-home{
+   justify-content: left;
 }
-#home .img-container{
+#home .left-home .img-container{
+ 
   width: 15rem;
   height: 15rem;
   border-radius : 100%;
