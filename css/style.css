@@ -84,6 +84,7 @@ body{
 
 .wrapper .container{
   width: calc(100% - 120px);
+  background-image: url("../image/25334.jpg);
   margin-top: 0;
   margin-right: 120px;
   padding: 15px;
