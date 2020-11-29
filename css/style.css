@@ -164,8 +164,8 @@ body{
   margin-top: -192px;
   -webkit-animation-name: letter1;
           animation-name: letter1;
-  -webkit-animation-duration: 3.52s;
-          animation-duration: 3.52s;
+  -webkit-animation-duration: 2.50s;
+          animation-duration: 2.50s;
   -webkit-animation-delay: 0.01s;
           animation-delay: 0.01s;
   -webkit-animation-fill-mode: forwards;
@@ -194,8 +194,8 @@ body{
   margin-top: -144px;
   -webkit-animation-name: letter2;
           animation-name: letter2;
-  -webkit-animation-duration: 1.0971428571s;
-          animation-duration: 1.0971428571s;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
   -webkit-animation-delay: 0.68s;
           animation-delay: 0.68s;
   -webkit-animation-fill-mode: forwards;
@@ -224,10 +224,10 @@ body{
   margin-top: -48px;
   -webkit-animation-name: letter3;
           animation-name: letter3;
-  -webkit-animation-duration: 0.24s;
-          animation-duration: 0.24s;
-  -webkit-animation-delay: 0.91s;
-          animation-delay: 0.91s;
+  -webkit-animation-duration: 1.24s;
+          animation-duration: 1.24s;
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
@@ -256,8 +256,8 @@ body{
           animation-name: letter4;
   -webkit-animation-duration: 1.3028571429s;
           animation-duration: 1.3028571429s;
-  -webkit-animation-delay: 0.62s;
-          animation-delay: 0.62s;
+  -webkit-animation-delay: 0.52s;
+          animation-delay: 0.52s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
