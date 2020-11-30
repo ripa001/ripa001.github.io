@@ -477,7 +477,7 @@ body{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888; 
+  background: black; 
 }
 
 /* Handle on hover */
