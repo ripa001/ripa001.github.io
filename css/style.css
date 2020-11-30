@@ -15,7 +15,7 @@ body{
   position:fixed;
   top:0px;
   right: 0;
-  background: black;
+  background: #131313;
   text-align: center;
   width: 120px;
   height: calc(100%);
@@ -472,7 +472,7 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; 
+  background: #1d1d1d;
 }
  
 /* Handle */
@@ -482,6 +482,6 @@ body{
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: white; 
 }
 
