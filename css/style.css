@@ -84,11 +84,12 @@ body{
 .wrapper .container-fluid{
 
   position:absolute;
-  width: calc(100% - 120px);
-  height: calc(100%);
+  width: calc(100% - 120px)!important;
+  height: calc(100%)!important;
   align-items:center;
   margin-top: 0;
-  margin-right: 120px;
+  padding: 0!important;
+  margin-right: 120px!important;
   transition: all 0.3s ease;
   
 }
