@@ -82,6 +82,7 @@ body{
 }
 
 .wrapper .container-fluid{
+
   position:absolute;
   width: calc(100% - 120px);
   height: calc(100%);
