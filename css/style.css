@@ -76,12 +76,12 @@ body{
 .wrapper.open .sidebar ul li a span.title{
   display: inline-block!important;
 }
-.wrapper.open .container{
+.wrapper.open .container-fluid{
   width: calc(100% - 300px)!important;
   margin-right: 300px!important;
 }
 
-.wrapper .container{
+.wrapper .container-fluid{
   position:absolute;
   width: calc(100% - 120px);
   height: calc(100%);
@@ -91,7 +91,7 @@ body{
   transition: all 0.3s ease;
   
 }
-.wrapper .container #home{
+.wrapper .container-fluid #home{
   position: block;
   width:100%;
   height:100%;
