@@ -108,10 +108,10 @@ body{
 #home .left-home{
    justify-content: left;
 }
-#home .col-md-5 .img-container{
+#home .col-md-7 .img-container{
  
-  width: 15rem;
-  height: 15rem;
+  width: 20rem;
+  height: 20rem;
   border-radius : 100%;
   top:50%;
   left: 20%;
