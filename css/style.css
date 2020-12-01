@@ -151,7 +151,7 @@ body{
   position: relative;
   overflow: hidden;
   margin: 0 0;
-  font-family: sans-serif;
+  font-family: 'Syne Mono', monospace;
   font-size: 40px;
   font-weight: 600;
   line-height: 40px;
