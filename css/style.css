@@ -24,6 +24,7 @@ body{
 
 .wrapper .sidebar ul li a{
   display: block;
+  text-decoration: none;
   padding: 20px;
   position: relative;
   margin-bottom: 1px;
