@@ -59,24 +59,24 @@ body{
   display: block!important;
   
 }
-.wrapper.collapse .sidebar{
+.wrapper.open .sidebar{
   width: 300px!important;
   
 }
-.wrapper.collapse .sidebar ul li a {
+.wrapper.open .sidebar ul li a {
   text-align: center!important;
 
 }
-.wrapper.collapse .sidebar ul li a span.icon {
+.wrapper.open .sidebar ul li a span.icon {
   margin: 0!important;
   
 }
 
 
-.wrapper.collapse .sidebar ul li a span.title{
+.wrapper.open .sidebar ul li a span.title{
   display: inline-block!important;
 }
-.wrapper.collapse .container{
+.wrapper.open .container{
   width: calc(100% - 300px)!important;
   margin-right: 300px!important;
 }
