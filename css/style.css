@@ -159,16 +159,19 @@ body{
 #about .row .col-md-8 #instruction-col:hover{
   border:solid;
   border-color:black;
+  padding:0;
   border-width: 0 2px 0 2px; /* top right bottom left */
 }
 #about .row .col-md-8 #experience-col:hover{
   border:solid;
   border-color:black;
+  padding:0;
   border-width: 0 2px 0 2px; /* top right bottom left */
 }
 #about .row .col-md-8 #languages-col:hover{
   border:solid;
   border-color:black;
+  padding:0;
   border-width: 0 2px 0 2px; /* top right bottom left */
 }
 
