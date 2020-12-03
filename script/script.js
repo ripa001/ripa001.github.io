@@ -11,7 +11,7 @@ $(document).ready(function(){
 		$("#experience").toggleClass("d-none");
 		
 	})
-	$(".item-scheme").hover(function(){
+	$(".scheme").hover(function(){
 		$("#languages").toggleClass("d-none");
 		
 	})
