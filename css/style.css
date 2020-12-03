@@ -140,6 +140,10 @@ body{
   border-radius: 100%;
 
 }
+#about .row h3{
+  color:white;
+}
+
 #about .row span.icon i:hover{
   background-color: white;
   border-color: black;
@@ -149,7 +153,7 @@ body{
 #about .row .scheme .item-scheme{
   margin-top:20px;
   text-decoration: overline white;
-  font-size:22px;
+  font-size:18px;
   color:#f1f1f1;
 }
 
