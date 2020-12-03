@@ -156,7 +156,9 @@ body{
   font-size:18px;
   color:#f1f1f1;
 }
-
+#about .row .col-md-8 #instruction-col{
+  border-width: 0 2px 0 2px; /* top right bottom left */
+}
 
 /* Animated text */
 
