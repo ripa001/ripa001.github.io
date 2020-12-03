@@ -156,7 +156,17 @@ body{
   font-size:18px;
   color:#f1f1f1;
 }
-#about .row .col-md-8 #instruction-col{
+#about .row .col-md-8 #instruction-col:hover{
+  border:solid;
+  border-color:black;
+  border-width: 0 2px 0 2px; /* top right bottom left */
+}
+#about .row .col-md-8 #experience-col:hover{
+  border:solid;
+  border-color:black;
+  border-width: 0 2px 0 2px; /* top right bottom left */
+}
+#about .row .col-md-8 #languages-col:hover{
   border:solid;
   border-color:black;
   border-width: 0 2px 0 2px; /* top right bottom left */
