@@ -11,6 +11,10 @@ $(document).ready(function(){
 		$("#experience").toggleClass("d-none");
 		
 	})
+	$(".item-scheme").hover(function(){
+		$("#languages").toggleClass("d-none");
+		
+	})
 	$("#languages-icon").hover(function(){
 		$("#languages").toggleClass("d-none");
 		
