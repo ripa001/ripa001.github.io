@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$("#instruction").toggleClass("d-none");
 		
 	})
-	$("#experience-icon").hover(function(){
+	$("#experience-col").hover(function(){
 		$("#experience").toggleClass("d-none");
 		
 	})
@@ -15,7 +15,7 @@ $(document).ready(function(){
 		$("#languages").toggleClass("d-none");
 		
 	})
-	$("#languages-icon").hover(function(){
+	$("#languages-col").hover(function(){
 		$("#languages").toggleClass("d-none");
 		
 	})
