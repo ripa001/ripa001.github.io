@@ -3,7 +3,7 @@ $(document).ready(function(){
 		$(".wrapper").toggleClass("open");
 		$(".wrapper").toggleClass("wrapper-animated");
 	})
-	$("#instruction-icon").hover(function(){
+	$("#instruction-col").hover(function(){
 		$("#instruction").toggleClass("d-none");
 		
 	})
