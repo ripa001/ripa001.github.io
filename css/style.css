@@ -149,6 +149,8 @@ body{
 #about .row .scheme .item-scheme{
   margin-top:20px;
   text-decoration: overline white;
+  font-size:22px;
+  color:#f1f1f1;
 }
 
 
