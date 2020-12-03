@@ -132,7 +132,14 @@ body{
 
 
 /* About */
+#about .row span.icon{
+  padding:20px;
+  border: solid;
+  border-color: #eeeeee;
+  color: #eeeeee;
+  border-radius: 100%;
 
+}
 
 
 /* Animated text */
