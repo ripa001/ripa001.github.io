@@ -140,6 +140,16 @@ body{
   border-radius: 100%;
 
 }
+#about .row span.icon i:hover{
+  background-color: white;
+  border-color: black;
+  color: black;
+  
+}
+#about .row .scheme .item-scheme{
+  margin-top:20px;
+  text-decoration: overline white;
+}
 
 
 /* Animated text */
