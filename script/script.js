@@ -3,20 +3,26 @@ $(document).ready(function(){
 		$(".wrapper").toggleClass("open");
 		$(".wrapper").toggleClass("wrapper-animated");
 	})
-	$("#instruction-col").hover(function(){
-		$("#instruction").toggleClass("d-none");
+	$("#instruction").hover(function(){
+		$("#languages-content").addClass("d-none");
+		$("#experience-content").addClass("d-none");
+		$("#instruction-content").removeClass("d-none");
 		
 	})
-	$("#experience-col").hover(function(){
-		$("#experience").toggleClass("d-none");
+	$("#languages").hover(function(){
+		$("#experience-content").addClass("d-none");
+		$("#instruction-content").addClass("d-none");
+		$("#languages-content").removeClass("d-none");
 		
 	})
-	$(".scheme").hover(function(){
-		$("#languages").toggleClass("d-none");
+	$("#experience").hover(function(){
+		$("#languages-content").addClass("d-none");
+		$("#instruction-content").addClass("d-none");
+		$("#experience-content").removeClass("d-none");
 		
 	})
-	$("#languages-col").hover(function(){
-		$("#languages").toggleClass("d-none");
-		
-	})
+
+
+
+
 })
