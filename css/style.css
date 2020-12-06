@@ -120,10 +120,6 @@ body{
   background-size:cover;
   background-position: center;
 }
-.container .item{
-  
-}
-
 @media screen and (max-height: 450px) {
 }
 
@@ -144,37 +140,6 @@ body{
   color:white;
 }
 
-#about .row span.icon i:hover{
-  background-color: white;
-  border-color: black;
-  color: black;
-  
-}
-#about .row .scheme .item-scheme{
-  margin-top:20px;
-  text-decoration: overline white;
-  font-size:18px;
-  color:#f1f1f1;
-}
-#about .row .col-md-8 #instruction-col:hover{
-  border:solid;
-  border-color:black;
-  padding:0;
-  border-width: 0 2px 0 2px; /* top right bottom left */
-}
-#about .row .col-md-8 #experience-col:hover{
-  border:solid;
-  border-color:black;
-  padding:0;
-  border-width: 0 2px 0 2px; /* top right bottom left */
-}
-#about .row .col-md-8 #languages-col:hover{
-  border:solid;
-  border-color:black;
-  padding:0;
-  border-width: 0 2px 0 2px; /* top right bottom left */
-}
-
 /* Animated text */
 
 #home .wrapper-animated{
@@ -183,6 +148,17 @@ body{
 
 }
 
+.category .hover-hide-div{
+  z-index: 0;
+}
+.category .hover-div{
+  z-index: 100;
+}
+.category{
+  position:absolute;
+  top:5px;
+  width: 100%;
+}
 
 
 #home .wrapper-animated .letters .letter {
