@@ -38,8 +38,24 @@ $(document).ready(function(){
 		$("#instruction").removeClass("active-tab")
 		
 	})
+	
+	function autoWriting(){
+		var typed_strings = $(".typed").data('typed-items');
+		typed_strings = typed_strings.split(',')
+		new Typed('.typed', {
+		  strings: typed_strings,
+		  loop: true,
+		  typeSpeed: 100,
+		  backSpeed: 50,
+		  backDelay: 2000
+		})
+	}
+	function removeFirst(){
+		$('.letter').addClass('d-none')
+		$('.auto-typing').removeClass('d-none')
 
-
-
+	}
+	setTimeout(autoWriting, 1000)
+	setTimeout(removeFirst, 8000)
 
 })
