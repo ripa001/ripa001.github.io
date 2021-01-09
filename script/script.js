@@ -56,6 +56,6 @@ $(document).ready(function(){
 
 	}
 	setTimeout(autoWriting, 1000)
-	setTimeout(removeFirst, 8000)
+	setTimeout(removeFirst, 4000)
 
 })
