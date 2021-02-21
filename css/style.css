@@ -119,8 +119,7 @@ body{
   width: 20rem;
   height: 20rem;
   border-radius : 100%;
-  
-  background-image:url("../images/bg-profile.jpg");
+  background-image:url("../images/Immagine.png");
   background-size:cover;
   background-position: center;
 }
@@ -844,9 +843,7 @@ animation: rotateZ 300ms 300ms ease-in-out forwards;
 }
 .overlay-text p{
 	font-size: 1.2rem;
-	margin: 0px;
- 
- 
+	margin: 0px; 
 }
 .p-box:hover .overlay-text{
 	display: flex;
