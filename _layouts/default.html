@@ -3,16 +3,21 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
+			<link href="../css/hamburger.css" rel="stylesheet">
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 			<link rel="preconnect" href="https://fonts.gstatic.com">
 			<link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 			<link rel="stylesheet" type="text/css" href="../css/style.css">
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
 
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<!-- Latest compiled and minified CSS -->
 
 		</head>
 		<body>
+			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"></script> -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.js" integrity="sha512-6jYd74hwloeB8HwKDIiUM3juIyZOCyPTrfJbEUlueTxNPjSjcQZr9DkO6P8xVRFuPYN6YitDunNKgxUwFfIixQ==" crossorigin="anonymous"></script>
 			<script src="https://kit.fontawesome.com/8eb69201ea.js" crossorigin="anonymous"></script>
 			<script src="../vendor/jquery.min.js"></script>	
@@ -20,28 +25,36 @@
 
 			<div class="wrapper">
 
-
+				<button class="hamburger hamburger--collapse" type="button">
+					<span class="hamburger-box">
+					  <span class="hamburger-inner"></span>
+					</span>
+				  </button>
 				<div class="sidebar">
-					<ul>
+				  	<ul>
 						<li><a href="#">
 							<span class="icon"><i class="fas fa-home"></i></span>
 							<span class="title">Home</span>
 						</a></li>
-						<li><a href="#">
+						<li><a href="#about">
 							<span class="icon"><i class="fas fa-user"></i></span>
 							<span class="title">Chi sono</span></a></li>
-						<li><a href="#"><span class="icon"><i class="fas fa-clone"></i></span>
+						<li><a href="#portfolio"><span class="icon"><i class="fas fa-clone"></i></span>
 							<span class="title">Portfolio</span></a></li>
-						<li><a href="#"><span class="icon"><i class="fas fa-align-center"></i></span>
+						<li><a href="#projects"><span class="icon"><i class="fas fa-align-center"></i></span>
 							<span class="title">Progetti</span></a></li>
-						
+					
 					</ul>
 				</div>
 				<div class="container-fluid">
 					{{ content }}
+				</div>
 
-				</div><!-- /.container -->
-			</div>
-			
-			
-		</body>
+					
+					  
+					
+					
+					
+			</div><!-- /.container -->
+		</div>
+	</body>
