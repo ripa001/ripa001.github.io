@@ -124,31 +124,47 @@ body{
   background-size:cover;
   background-position: center;
 }
-@media only screen and (max-width: 600px) {
+.menu-mobile{
+  display: none;
+}
+@media only screen and (max-width: 1030px) {
+  .menu-mobile{
+    display: block;
+    position:relative;
+    float: right;
+    margin: 30px 30px;
+  }
   .wrapper .sidebar{
     display: none;
   }
   .wrapper .container-fluid{
 
     position:absolute;
-    width: 100%!important;
+    width: calc(100%)!important;
     height: calc(100%)!important;
     align-items:center;
     margin-top: 0;
     padding: 0!important;
-    margin-right: 0!important;
+    margin-right: 120px!important;
     transition: all 0.3s ease;
     
   }
+ 
   #home .img-container{
  
-    width: 8rem;
-    height: 8rem;
+    width: 20rem;
+    height: 20rem;
     border-radius : 100%;
-    background-image:url("../images/bg-profile.jpg");
+    background-image:url("../images/Immagine.png");
     background-size:cover;
     background-position: center;
   }
+}
+@media only screen and (min-width: 1030px) {
+  .hamburger{
+    display: none;
+  }
+
 }
 @media screen and (max-height: 450px) {
  
@@ -166,7 +182,7 @@ body{
   font-family: calibri;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   height: 85%;
   padding: 40px 0% 20px 2%
@@ -748,6 +764,9 @@ animation: rotateZ 300ms 300ms ease-in-out forwards;
   background: white; 
 }
 
+.auto-typing p{
+  margin-bottom: 0px;
+}
 /* Portfolio*/
 #portfolio{
   position: relative;
@@ -836,4 +855,3 @@ animation: rotateZ 300ms 300ms ease-in-out forwards;
 .logo-container{
  background-image: url(../images/);
 }
-
