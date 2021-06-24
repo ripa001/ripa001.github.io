@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$(document).on('scroll', '#about', function() {
 		$(".experience-li").addClass("d-none");
 		$(".instruction-li").addClass("d-none");
@@ -11,33 +12,18 @@ $(document).ready(function(){
 		$(".wrapper").toggleClass("open");
 		$(".wrapper").toggleClass("wrapper-animated");
 	})
-	$("#instruction").hover(function(){
-		$(".languages-li").addClass("d-none");
-		$(".experience-li").addClass("d-none");
-		$(".instruction-li").removeClass("d-none");
-		$("#instruction").addClass("active-tab")
-		$("#languages").removeClass("active-tab")
-		$("#experience").removeClass("active-tab")
-		
-	})
-	$("#languages").hover(function(){
-		$(".experience-li").addClass("d-none");
-		$(".instruction-li").addClass("d-none");
-		$(".languages-li").removeClass("d-none");
-		$("#languages").addClass("active-tab")
-		$("#instruction").removeClass("active-tab")
-		$("#experience").removeClass("active-tab")
-		
-	})
-	$("#experience").hover(function(){
-		$(".languages-li").addClass("d-none");
-		$(".instruction-li").addClass("d-none");
-		$(".experience-li").removeClass("d-none");
-		$("#experience").addClass("active-tab")
-		$("#languages").removeClass("active-tab")
-		$("#instruction").removeClass("active-tab")
-		
-	})
+	function tabs(to_hide, to_hide_1, to_show, id_hide, id_hide1, id_show){
+		$(to_hide).addClass("d-none");
+		$(to_hide_1).addClass("d-none");
+		$(to_show).removeClass("d-none");
+		$(id_show).addClass("active-tab")
+		$(id_hide).removeClass("active-tab")
+		$(id_hide1).removeClass("active-tab")
+	}
+	$("#instruction").hover(tabs(".languages-li",".experience-li", ".instruction-li","#instruction","#languages","#experience"))
+	$("#languages").hover(tabs(".experience-li",".instruction-li", ".languages-li","#languages","#instruction","#experience"))
+	$("#experience").hover(tabs(".languages-li",".instruction-li", ".experience-li","#experience","#languages","#instruction"))
+
 	
 	function autoWriting(){
 		var typed_strings = $(".typed").data('typed-items');
@@ -55,7 +41,12 @@ $(document).ready(function(){
 		$('.auto-typing').removeClass('d-none')
 
 	}
-	setTimeout(autoWriting, 1000)
+	setTimeout(autoWriting, 2000)
 	setTimeout(removeFirst, 4000)
+
+	
+
+
+
 
 })
